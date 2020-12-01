@@ -18,7 +18,7 @@ class GetRecipeTypes @Inject constructor(
 ) {
     companion object {
         private const val RECIPE_TYPE = "recipetype"
-        private const val XML_FILE_DIRECTORY = "xml/recipe_types.xml"
+        private const val XML_FILE_DIRECTORY = "xml/recipetypes.xml"
         private const val RECIPE_TYPE_ID = "id"
         private const val RECIPE_TYPE_TITLE = "title"
     }
