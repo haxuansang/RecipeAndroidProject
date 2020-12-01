@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="recipe"
+            type="com.enclave.recipeproject.model.Recipe" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvRoot"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_card_recipe"
+        android:layout_marginStart="@dimen/margin_horizontal_recipe"
+        android:layout_marginLeft="@dimen/margin_horizontal_recipe"
+        android:layout_marginTop="@dimen/margin_vertical_recipe"
+        android:layout_marginEnd="@dimen/margin_horizontal_recipe"
+        android:layout_marginRight="@dimen/margin_horizontal_recipe"
+        android:layout_marginBottom="@dimen/margin_vertical_recipe"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        app:cardCornerRadius="@dimen/card_corner_radius">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cardContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_recipe">
+
+            <ImageView
+                android:id="@+id/imv_recipe"
+                android:layout_width="@dimen/width_imv_recipe"
+                android:layout_height="@dimen/height_imv_recipe"
+                android:layout_gravity="center_vertical"
+                android:recipeImg="@{recipe.img}"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@drawable/image_holder" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_left_recipe_name"
+                android:layout_marginLeft="@dimen/margin_left_recipe_name"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@{recipe.name}"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_recipe_name"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/imv_recipe"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Pumpkin cake" />
+
+            <TextView
+                android:id="@+id/tv_ingredients"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_left_ingredients"
+                android:layout_marginLeft="@dimen/margin_left_ingredients"
+                android:layout_marginTop="@dimen/margin_top_ingredients"
+                android:ellipsize="end"
+                android:lines="2"
+                android:text="@{recipe.ingredients}"
+                android:textSize="@dimen/text_size_ingredients"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/imv_recipe"
+                app:layout_constraintTop_toBottomOf="@id/tv_name"
+                tools:text="2 cups white sugar, 1 ¼ cups vegetable oil, 1 teaspoon vanilla extract" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Recipe Application</string>
+    <string name="filter_title">Recipe Types:</string>
+    <string name="name_title">Name: </string>
+    <string name="name_hint">Name</string>
+    <string name="step_title">Steps: </string>
+    <string name="step_hint">Steps</string>
+    <string name="type_title">Type: </string>
+    <string name="type_hint">Type</string>
+    <string name="ingredient_title">Ingredients: </string>
+    <string name="ingredient_hint">Ingredients</string>
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="fulfill_alert">Please fill all fields and choose image! </string>
+    <string name="pick_image_alert">You haven\'t picked image! </string>
+    <string name="confirm_delete">Do you want to delete this recipe?</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="check_fields">Some field is empty or you haven\'t picked an image. Please check it carefully!</string>
+    <string name="add_success">Add new recipe successfully</string>
+    <string name="update_success">Update the recipe successfully</string>
+    <string name="delete_success">Delete the recipe successfully</string>
+    <string name="edit_now">You can edit now!</string>
+</resources>

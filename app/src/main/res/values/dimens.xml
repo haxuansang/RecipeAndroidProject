@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_corner_radius">3dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="height_edt_detail">60dp</dimen>
+    <dimen name="padding_fields">10dp</dimen>
+    <dimen name="width_button_choose">200dp</dimen>
+    <dimen name="height_button_choose">50dp</dimen>
+    <dimen name="width_text_title">100dp</dimen>
+    <dimen name="margin_horizontal_field">10dp</dimen>
+    <dimen name="margin_top_btn_choose">10dp</dimen>
+    <dimen name="height_card_recipe">100dp</dimen>
+    <dimen name="margin_horizontal_recipe">5dp</dimen>
+    <dimen name="margin_vertical_recipe">3dp</dimen>
+    <dimen name="padding_recipe">10dp</dimen>
+    <dimen name="width_imv_recipe">80dp</dimen>
+    <dimen name="height_imv_recipe">80dp</dimen>
+    <dimen name="margin_left_recipe_name">10dp</dimen>
+    <dimen name="margin_left_ingredients">10dp</dimen>
+    <dimen name="margin_top_ingredients">5dp</dimen>
+    <dimen name="margin_left_filter_title">15dp</dimen>
+    <dimen name="height_filter_spinner">40dp</dimen>
+    <dimen name="margin_left_filter_spinner">30dp</dimen>
+    <dimen name="width_imv_recipe_header">150dp</dimen>
+    <dimen name="height_imv_recipe_header">150dp</dimen>
+    <dimen name="margin_top_recipe_header">10dp</dimen>
+    <dimen name="margin_left_title_detail">4dp</dimen>
+    <dimen name="button_save_height">50dp</dimen>
+    <dimen name="button_cancel_height">50dp</dimen>
+    <dimen name="margin_right_btn_process">10dp</dimen>
+    <dimen name="margin_top_btn_process">10dp</dimen>
+
+    <dimen name="text_size_filter_title">16sp</dimen>
+    <dimen name="text_size_ingredients">12sp</dimen>
+    <dimen name="text_size_spinner_title">16sp</dimen>
+    <dimen name="text_size_recipe_name">20sp</dimen>
+</resources>

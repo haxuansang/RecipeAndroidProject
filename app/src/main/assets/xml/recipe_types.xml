@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<records>
+    <recipetype>
+        <id>1</id>
+        <title>Dessert</title>
+    </recipetype>
+    <recipetype>
+        <id>2</id>
+        <title>Main Dish</title>
+    </recipetype>
+    <recipetype>
+        <id>3</id>
+        <title>Soup</title>
+    </recipetype>
+    <recipetype>
+        <id>4</id>
+        <title>Salad</title>
+    </recipetype>
+    <recipetype>
+        <id>5</id>
+        <title>Drink</title>
+    </recipetype>
+</records>
